@@ -130,7 +130,8 @@ span{
 }
 .joystick{
     width: 500px;
-    height: 347px;}   
+    height: 347px;  
+}   
 .center .center-banner{    
     display: flex;
     flex-wrap: wrap;
@@ -144,13 +145,16 @@ span{
 .center-banner .images{
     display: flex;
     align-items: flex-end;
-   
+    justify-content: center;     
+}
+.center-banner .images img{
+    margin-bottom: -50px;
 }
 .center .center-banner .name{    
     position: absolute;
     width: 300px;
-    height: 62px;
-    margin-left: 90px;    
+    height: 62px;    
+
 }
 .center .questions{
     margin: 10%;   
@@ -162,17 +166,72 @@ span{
     font-size: 48px;
     font-weight: 600;
     line-height: 100%;
+    margin-bottom: 10%;
 }
 .center .questions h3{
     font-size: 24px;
     font-weight: 500;
     line-height: 150%;
+    width: 100vh;
 }
+label{
+    position: relative;
+}
+
+ .seta{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 20px;
+    height: 10px;
+}
+.seta-off{
+    max-width: 0;
+}
+
+ .center .questions h3::after{
+    content: url(src/images/seta-cinza.png);    
+    right: 0;
+    position: absolute;   
+    /* transform: rotateX(180deg); */
+} 
+
+.center .questions .bf::before{
+    display: flex;
+    content: "";
+    width: 100%;
+    height: 15px;
+    border-bottom: 1px solid #ccc;
+    opacity: 0.3;
+    margin-bottom: 15px;
+}
+input{
+    display: none;
+}  
 .center .questions p{
-font-size: 18px;
-font-weight: 500;
-line-height: 150%;
+    opacity: 0;
+    height: 0;
+    transition: ease-in-out 3s;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;    
 }
+#ask1:checked ~ .r1{
+    opacity: 1;    
+    height: 100%;
+}
+#ask2:checked ~ .r2{
+    opacity: 1;    
+    height: 100%;
+}
+#ask3:checked ~ .r3{
+    opacity: 1;    
+    height: 100%;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
