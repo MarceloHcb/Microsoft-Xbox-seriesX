@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --green:#9BF00B;
+
+}
+html{
+    font-family: "inter", sans-serif;
+}
+body{
+    background-color:black;
+    color: white;
+    margin: 5%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    align-items: center;
+}
+.menu-top ul{
+    display: flex;    
+    gap:40px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.menu-top ul li:hover{
+    color: var(--green);
+}
+.top .logo{
+width: 144px;
+height: 44px;
+}
+.button-top{
+width: 224px;
+height: 60px;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+font-style: normal;
+background-color: var(--green);
+}
+.button-top:hover{
+transform: scale(110%);
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.center-xbox{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    text-align: center;
+}
+.center-xbox-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+}
+.center-xbox img{  
+    position: absolute;
+    top: 30%;       
+    z-index: 0; 
+    width: 100%;
+    height: 50vh;
+}
+.center .center-xbox-content{
+    position: absolute;   
+    text-align: center;
+      
+}
+.center .center-xbox{
+    text-align: center;
+    position: relative;
+    width: 120%;
+    height: 30vh;
+}
+.center .center-xbox h1{
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.center .center-xbox h2{
+    color: var(--green);
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 700;    
+}
+.center-xbox-console .console{
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    width: 1235px;
+    height: 597px;
+    z-index: 3;
+}
+.center .center-controler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;   
+    padding: 200px;
+}
+.center .center-controler .controler-content{
+    width: 50%;    
+}
+.center .center-controler .controler-content h2{
+    font-size: 64px;   
+    font-weight: 600;   
+    line-height: 130%;
+}
+span{
+    color: var(--green);
+}
+.center .center-controler .controler-content p{
+    margin-top: 2%;
+    font-size: 24px;
+    font-weight: 500;
+    width: 70%;
+}
+.joystick{
+    width: 500px;
+    height: 347px;}   
+.center .center-banner{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+.center .center-banner img{
+    width: 480px;
+    height: 800px;
+}
+.center-banner .images{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.center .center-banner .name{    
+    position: absolute;
+    width: 300px;
+    height: 62px;
+    margin-left: 90px;    
+}
+.center .questions{
+    margin: 10%;   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.center .questions h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.center .questions h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.center .questions p{
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    max-width: 80%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+footer .copy{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color:  #777777; 
+}
