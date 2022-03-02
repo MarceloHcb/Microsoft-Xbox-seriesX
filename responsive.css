@@ -1,3 +1,9 @@
+@media(max-width: 1930px){
+    .center .center-banner img{
+        width: 420px;
+        height: 700px;
+    }
+}
 @media(max-width: 1300px){
     .center-xbox img{  
         position: absolute;
