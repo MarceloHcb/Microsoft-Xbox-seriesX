@@ -6,7 +6,6 @@ const input = document.querySelectorAll("input")
 console.log(input)
 let contador = 0
 logo.forEach(lg => {
-
     lg.addEventListener("mouseover", function () {
         contador++
         lg.src = "../src/images/LOGO1.png"
@@ -28,7 +27,6 @@ joystick.forEach(jt => {
         if (contador == 2) {
             contador = 0
         }
-
     })
 })
 hh.forEach(element => {
