@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 :root{
     --green:#9BF00B;
-
 }
 html{
     font-family: "inter", sans-serif;
@@ -44,7 +43,6 @@ background-color: var(--green);
 }
 .button-top:hover{
 transform: scale(110%);
-
 }
 .center{
     display: flex;
@@ -188,17 +186,14 @@ label{
     width: 20px;
     height: 10px;
 }
-.seta-off{
-    max-width: 0;
-}
-
- .center .questions h3::after{
-    content: url(src/images/seta-cinza.png);    
+.hh{
+    position: absolute;
     right: 0;
-    position: absolute;   
-    /* transform: rotateX(180deg); */
-} 
-
+    top: 40px;
+}
+.rotate{
+    transform:rotate(180deg);
+}
 .center .questions .bf::before{
     display: flex;
     content: "";
@@ -231,7 +226,6 @@ input{
     opacity: 1;    
     height: 100%;
 }
-
 footer{
     display: flex;
     justify-content: space-between;
