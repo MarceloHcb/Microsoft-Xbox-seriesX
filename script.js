@@ -20,9 +20,9 @@ logo.forEach(lg => {
 joystick.forEach(jt => {
     jt.addEventListener("mouseover", function () {
         contador++
-        jt.src = "../../src/images/joystick1.png"
+        jt.src = "src/images/joystick1.png"
         if (contador == 2) {
-            jt.src = "../../src/images/joystick.png"
+            jt.src = "src/images/joystick.png"
         }
         if (contador == 2) {
             contador = 0
