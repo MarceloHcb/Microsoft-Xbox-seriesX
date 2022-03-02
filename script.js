@@ -6,11 +6,12 @@ const input = document.querySelectorAll("input")
 console.log(input)
 let contador = 0
 logo.forEach(lg => {
+
     lg.addEventListener("mouseover", function () {
         contador++
-        lg.src = "../src/images/LOGO1.png"
+        lg.src = "src/images/LOGO1.png"
         if (contador == 2) {
-            lg.src = "../src/images/LOGO.png"
+            lg.src = "src/images/LOGO.png"
         }
         if (contador == 2) {
             contador = 0

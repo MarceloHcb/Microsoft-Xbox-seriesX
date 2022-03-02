@@ -36,6 +36,11 @@
     width: 280px;
     height: 600px;
 }
+.center .center-banner .name{    
+    position: absolute;
+    width: 200px;
+    height:52px; 
+}
 .center .questions h3{
     font-size: 20px;    
     width: 95%;
@@ -80,6 +85,15 @@
         width: 380px;
         height: 600px;
     }
+    .center .center-banner .name{    
+        position: absolute;
+        width: 150px;
+        height: 42px; 
+    }
+    .center .questions h2{
+        margin-top: 50px;
+        font-size: 38px;        
+    }
 }
 @media(max-width: 480px){    
     .center-xbox-console .console{
@@ -97,6 +111,9 @@
     .center .center-banner img{
         width: 380px;
         height: 550px;
+    }
+    .center .questions h2{
+        font-size: 38px;       
     }
     
 }
