@@ -95,12 +95,16 @@
         font-size: 38px;        
     }
 }
-@media(max-width: 480px){    
+@media(max-width: 480px){   
+    .menu-top ul{          
+        gap:20px;
+        font-size: 16px;        
+    } 
     .center-xbox-console .console{
         height: 30vh;
     }
     .center .center-xbox h1{
-        font-size: 52px;       
+        font-size: 42px;       
     }    
     .center .center-controler .controler-content h2{
         font-size: 24px;      
