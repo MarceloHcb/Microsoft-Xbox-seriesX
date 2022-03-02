@@ -46,14 +46,12 @@ transform: scale(110%);
 }
 .center{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     justify-content: center;
     align-items: center;  
     
 }
-.center-xbox{
-    width: 100%;
-    height: 150%;
+.center-xbox{    
     display: flex;
     text-align: center;
 }
@@ -98,7 +96,7 @@ transform: scale(110%);
     position: absolute;
     top: 60%;
     left: 28%;
-    width: 1235px;
+    width: 50%;
     height: 597px;
     z-index: 3;
 }
@@ -106,7 +104,7 @@ transform: scale(110%);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;   
+    margin-top: 25%;   
     padding: 200px;
 }
 .center .center-controler .controler-content{
@@ -133,7 +131,7 @@ span{
 .center .center-banner{    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;    
 }
 .center .center-banner img{
