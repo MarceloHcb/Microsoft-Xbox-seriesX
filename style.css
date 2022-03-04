@@ -26,8 +26,12 @@ body{
     font-size: 17px;
     font-weight: 600;
 }
+.menu-top ul li{
+    cursor: pointer;
+}
 .menu-top ul li:hover{
     color: var(--green);
+    
 }
 .top .logo{
 width: 144px;
@@ -41,6 +45,7 @@ font-size: 15px;
 line-height: 18px;
 font-style: normal;
 background-color: var(--green);
+cursor: pointer;
 }
 .button-top:hover{
 transform: scale(110%);
@@ -184,12 +189,13 @@ label{
     justify-content: flex-end;
     align-items: flex-end;
     width: 20px;
-    height: 10px;
+    height: 10px;    
 }
 .hh{
     position: absolute;
     right: 0;
     top: 40px;
+    cursor: pointer;
 }
 .rotate{
     transform:rotate(180deg);
