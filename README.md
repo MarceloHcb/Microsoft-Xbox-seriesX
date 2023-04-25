@@ -1,5 +1,5 @@
 # Microsoft-Xbox-seriesX
-# Desafio Xbox responsive page
+# Xbox responsive page
 [<img src="./xbox.gif" alt="gif do exemplo do projeto">](https://marcelohcb.github.io/Microsoft-Xbox-seriesX/)
 
 ## Tecnologias Utilizadas
